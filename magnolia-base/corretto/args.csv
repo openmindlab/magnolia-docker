@@ -1,4 +1,6 @@
 # Tomcat Version,JDK Version
 9.0.24,jdk8-corretto
 9.0.24,jdk11-corretto
+9.0.30,jdk8-corretto
+9.0.30,jdk11-corretto
 #end

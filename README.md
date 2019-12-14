@@ -57,3 +57,9 @@ The author instance is available at http://localhost:3000 and the public instanc
 
 ## Important notes
 These images are still in early phase of development and not suited to be used in production.
+
+## Building this images
+
+**make command. Note: Change DIR env var for other image type:**
+
+`` make -e DIR=magnolia-base/corretto -e DOCKER_USERNAME=<yourdockerhubname> -e DOCKER_PASSWORD=<yourdockerhubname> [-e IMG_PREFIX=<yourdockerhubname>] build|push``
